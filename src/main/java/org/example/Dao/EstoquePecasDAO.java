@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EstoquePecasDAO {
-    private static final String URL = "jdbc:mysql://luismjava.duckdns.org.duckdns.org:3306/Sistema_Pecas";
+    private static final String URL = "DB_URL";
     private static final String USER = System.getenv("DB_USER");
     private static final String PASSWORD = System.getenv("DB_PASSWORD");
 
