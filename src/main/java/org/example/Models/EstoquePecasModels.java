@@ -58,10 +58,10 @@ public class EstoquePecasModels {
     @Override
     public String toString() {
         return "EstoquePecasModels " +
-                "id = " + id +
-                "nome = " + nome + '\'' +
-                "valor = " + valor +
-                "fabricante = " + fabricante + '\'' +
-                "quantidade = " + quantidade;
+                " Id = " + id +
+                " Nome = " + nome + '\'' +
+                " Valor = " + valor +
+                " Fabricante = " + fabricante + '\'' +
+                " Quantidade = " + quantidade;
     }
 }

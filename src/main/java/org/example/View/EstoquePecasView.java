@@ -41,5 +41,18 @@ public class EstoquePecasView {
             System.out.println(e);
         }
     }
+    public EstoquePecasModels lerDadosProduto(){
+        System.out.println("Digite o nome do peça: ");
+        String nome = scanner.nextLine();
+        System.out.println("Digite o valor da peça: ");
+        double valor = scanner.nextDouble();
+        System.out.println("Digite a quantidade de peças a serem adicionadas no estoque");
+        int quantidade = scanner.nextInt();
+        scanner.nextLine();
+        System.out.println("Digite o fabricante da peca: ");
+        String fabricante = scanner.nextLine();
+        EstoquePecasModels estoquePecasModels = new EstoquePecasModels(0,nome,valor,fabricante,quantidade);
+        return estoquePecasModels;
+    }
 
 }

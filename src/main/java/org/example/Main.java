@@ -1,9 +1,14 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import org.example.Controller.EstoquePecasController;
+
+import java.util.Scanner;
+
+
 public class Main {
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
+        EstoquePecasController c = new EstoquePecasController(scanner);
+        c.iniciar();
     }
 }

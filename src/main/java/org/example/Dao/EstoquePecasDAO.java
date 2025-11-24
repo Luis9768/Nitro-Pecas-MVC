@@ -5,9 +5,10 @@ import org.example.Models.EstoquePecasModels;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class EstoquePecasDAO {
-    private static final String URL = "DB_URL";
+    private static final String URL = "jdbc:mysql://luismjava.duckdns.org:3306/Sistema_Pecas";
     private static final String USER = System.getenv("DB_USER");
     private static final String PASSWORD = System.getenv("DB_PASSWORD");
 
@@ -187,6 +188,4 @@ public class EstoquePecasDAO {
             e.printStackTrace();
         }
     }
-
-
 }
