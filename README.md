@@ -61,4 +61,4 @@ Para testar esse projeto, você vai precisar do **Java 21** e do **MySQL** insta
 
 Feito com dedicação por **Luis Miguel**.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](SEU-LINK-DO-LINKEDIN-AQUI)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](www.linkedin.com/in/luís-miguel-pereira-lima-04314b362)
