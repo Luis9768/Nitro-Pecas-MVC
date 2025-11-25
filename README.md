@@ -3,7 +3,6 @@
 ![Java](https://img.shields.io/badge/Java-21-orange)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
 ![Architecture](https://img.shields.io/badge/Architecture-MVC-green)
-![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
 
 E aí! 👋 Bem-vindo ao repositório do **Nitro Auto Peças**.
 
